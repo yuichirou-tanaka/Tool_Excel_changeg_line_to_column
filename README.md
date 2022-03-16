@@ -1,2 +1,3 @@
-# Tool_Excel_changeg_line_to_column
-Excel 列と行の入れ替え
+# PDFの表を指定位置で改行するツール
+英語のデータシートなどのPDFにある表をtext.txtにコピペして、
+count_retuで指定の列で改行して、csvファイルで出力する。
