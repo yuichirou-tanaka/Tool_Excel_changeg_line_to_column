@@ -1,17 +1,19 @@
 import sys
 
 args = sys.argv
-if len(args) <= 4:
+#print(args)
+#print(len(args))
+if len(args) <= 3:
     print("argument 引数3未満.")
     file_input_name = "test.txt"
     file_output_name = "out.csv"
-    count_retu = 7
+    count_retu = 4
     #print(args)
     #exit()
 else:
     file_input_name = args[1]
     file_output_name = args[2]
-    count_retu = args[3]
+    count_retu = int(args[3])
 
 # ----------------
 # first pin volt setting
