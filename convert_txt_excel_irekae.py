@@ -35,7 +35,7 @@ with open(file_output_name, 'w') as f:
             s = sall_line.pop(0)
             s = s.replace("\n","")
             #fs.append(s)
-            f.write(s + ",")
+            f.write('"' + s + '"' + ",")
         f.write("\n")
         #f.write()
 
